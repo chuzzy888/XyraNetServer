@@ -1,0 +1,33 @@
+# .gitignore
+
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# Database files
+*.sqlite
+*.db
+
+# OS-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# NPM package lock files (optional)
+package-lock.json
+
+# Build output
+/dist
+/build
+
+# Miscellaneous
+*.tgz
+*.bak
